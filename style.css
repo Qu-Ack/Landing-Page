@@ -40,14 +40,17 @@ img {
 
 .card-container {
     display:flex;
-    width:700px;
+    width:800px;
     gap:32px;
+    
 }
 
 .box {
-    height:200px;
+    height:150px;
     width:150px;
     flex:auto;
+    background-color: red;
+    border-radius:5%;
 }
 
 .card {
@@ -60,4 +63,37 @@ img {
 
 .text-under-div {
     text-align: center;
+}
+
+.lower-content {
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    width:600px;
+}
+
+.writer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.sign-up {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
