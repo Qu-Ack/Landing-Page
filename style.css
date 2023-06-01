@@ -1,23 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+
+
 .header {
     display:flex;
     flex-direction: column;
+    background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+body {
+    margin:0;
 }
 
 ul {
     list-style: none;
     display:flex;
+    gap:24px;
 
+}
+p {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom:24px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#E5E7EB; 
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 img {
-    width:300px;
-    height:200px;
+    width:500px;
+    height:300px;
+    
 }
 
 .navigation {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 .header-content{
@@ -25,10 +54,12 @@ img {
     justify-content: space-between;
     align-items: center;
     gap:32px;
+    margin-bottom:128px;
 }
 
 .left {
-    width:300px;
+    width:400px;
+    
 }
 
 .upper-content {
@@ -42,14 +73,22 @@ img {
     display:flex;
     width:800px;
     gap:32px;
+    justify-content: space-between;
+    margin-bottom: 120px;
     
+}
+
+.card-heading{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    padding:12px;
+    margin-top: 60px;
 }
 
 .box {
     height:150px;
     width:150px;
     flex:auto;
-    background-color: red;
     border-radius:5%;
 }
 
@@ -63,26 +102,42 @@ img {
 
 .text-under-div {
     text-align: center;
+    width:150px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#1F2937;
+    margin-top: 10px;
 }
 
 .lower-content {
     display:flex; 
     align-items: center;
     justify-content: center;
+    background-color: #E5E7EB;
+    padding:64px;
 }
 
 .container-quote {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+  
 }
 
 .quote {
-    width:600px;
+    width:750px;
+    font-family: Roboto , sans-serif;
+    font-size: 36px;
+    color:#1F2937;
 }
 
 .writer{
     display:flex;
     justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: Roboto, sans-serif;
 }
 
 .sign-up {
@@ -90,10 +145,76 @@ img {
     display:flex;
     justify-content: center;
     align-items: center;
+    height:300px;
+}
+
+.signup-css {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:40px;
+    background-color: #3882F6;
+    flex-basis:auto;
+    height:70px;
+    width:900px;
+    border-radius: 10px;
+
+    
+}
+
+.footer {
+    display:flex;
+    background-color:#1F2937;
+    height:70px;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-text {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family:Roboto, sans-serif;
+    color: #F9FAF8;
+    font-size: 16px;
+   
+}
+
+.logo {
+    font-size: 24px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.website-heading {
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight: 900;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    background-color: #3882F6;
+    padding:8px;
+    width:100px;
+    border:none;
+    border-radius: 10px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#E5E7EB;
+}
+
+button:hover {
+    background-color: rgb(79, 158, 181);
+}
+
+
+h2 {
+
+    font-family: Roboto , sans-serif;
+    font-size: 24px;
+    color:#F9FAF8;
+    font-family: 900;
+    margin-bottom: 0;
+}
+.sign-up-button {
+    border:2px solid white; 
 }
